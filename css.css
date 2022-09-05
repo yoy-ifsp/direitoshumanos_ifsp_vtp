@@ -1,0 +1,86 @@
+/*
+https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+*/
+.inicio{
+    background-color: RGB(48,146,186);
+    margin:0px;
+    color:white;
+    padding:1vh;
+    text-align: center;
+    border-bottom: 0.5vh #9AD0EC solid;
+    position:sticky;
+    top:0;
+}
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75vh;
+    padding:2vh;
+    border-radius: 3vh;
+}
+p, pre{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin:0px;
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+}
+a:link {
+    color:RGB(48,146,186);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #023E8A;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #023E8A;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #00B4D8;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .foot{
+    background-color: RGB(48,146,186);
+    margin:0px;
+    color:white;
+    padding:0.25vh;
+    text-align: center;
+    border-top: 0.5vh #9AD0EC solid;  
+    position:sticky;
+    bottom:0;
+  }
+  div.polaroid {
+    width: 25em;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .galeria{
+    display:flex;
+    justify-content: space-evenly;
+  }
