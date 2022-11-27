@@ -8,14 +8,15 @@ https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8
     padding:1vh;
     text-align: center;
     border-bottom: 0.5vh #9AD0EC solid;
-    position:sticky;
     top:0;
+    position:sticky;
 }
 .foto{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:75vh;
+    width:35%;
+    height: auto;
     padding:2vh;
     border-radius: 3vh;
 }
@@ -67,7 +68,7 @@ a:link {
     bottom:0;
   }
   div.polaroid {
-    width: 25em;
+    width: 15em;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -83,4 +84,21 @@ a:link {
   .galeria{
     display:flex;
     justify-content: space-evenly;
+  }
+  .ini{
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .esquerda{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  .topicos{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 5%;
+    margin-right: 5%;
   }
